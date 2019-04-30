@@ -8,7 +8,7 @@ function parseDogs() {
             dogs.forEach(function (dog) {
                 let dogsInfo = `<div class="box">
                 <div>
-                <h3>${dog.bread_for}</h3>
+                <h3>${dog.bred_for}</h3>
                     <p>${dog.breed}</p>
                     <img src=${dog.image}>
                     <p>${dog.lifespan}</p>
